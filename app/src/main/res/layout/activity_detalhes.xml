@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalhesActivity"
+    android:background="#cacaca">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingHorizontal="20sp"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/IVimagemDetalhes"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:background="@drawable/roundstyle"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/TVnomeDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome do drink"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/TVdescDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/TVprecoDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Preço"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
